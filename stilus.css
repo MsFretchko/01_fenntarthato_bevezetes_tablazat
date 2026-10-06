@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8faf3;
+    color: #58716a;
+}
+table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    border:2px solid #c2caac;
+    border-radius: 5%;
+}
+th {
+    padding: 15px;
+    background-color: #ffffff;
+    text-align: left;
+    
+}
+td {
+    padding: 15px;
+    border-bottom: 2px solid #c2caac;
+    color: #58716a;
+}
+
+tr:nth-child(even){
+    background-color: #f8faf3;
+}
+tr {
+    background-color: white;
+}
+
+tr:nth-child(2){
+    background-color: #145c4e;
+    color: white;
+}
+
+.suli {
+    color: white;
+}
+
+.kiscim {
+    color: #145c4e;
+    font-weight: bold;
+}
+
+p{
+    color: #c2caac;
+    font-weight: 100;
+    font-size: 13px;
+}

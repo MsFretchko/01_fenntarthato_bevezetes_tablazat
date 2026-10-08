@@ -1,5 +1,5 @@
-* {
-    display: grid;
+*{
+    box-sizing: border-box;
 }
 body {
     margin: auto;

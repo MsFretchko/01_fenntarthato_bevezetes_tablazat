@@ -1,15 +1,19 @@
+* {
+    display: grid;
+}
 body {
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8faf3;
     color: #58716a;
+    max-width: 70%;
 }
 table {
-    margin: auto;
-    width: 70%;
+
+    width: 100%;
     border-collapse: collapse;
     border:2px solid #c2caac;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 th {
     padding: 15px;
@@ -21,6 +25,14 @@ td {
     padding: 15px;
     border-bottom: 2px solid #c2caac;
     color: #58716a;
+}
+
+.lablec{
+    padding: 15px;
+    border-bottom: 2px solid #c2caac;
+    color: #58716a;
+    font-weight: bold;
+
 }
 
 tr:nth-child(even){
@@ -48,4 +60,98 @@ p{
     color: #c2caac;
     font-weight: 100;
     font-size: 13px;
+}
+
+
+.vonal {
+    border-left: 5px solid #c2caac;
+    
+}
+
+h2 {
+    font-size: 35px;
+    color: #145c4e;
+    
+}
+
+.sima {
+    font-size: 15px;
+    color: #58716a;
+}
+.zold {
+    background-color: #c2caac;
+    color: #145c4e;
+    max-width: 150px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.szov{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+}
+
+header{
+    background-color: #145c4e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+#dontes {
+    text-transform: uppercase;
+    color: #145c4e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#ugras {
+    color: #145c4e;
+    text-align: right;
+}
+
+h1{
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.tarolosz {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    margin: 10px;
+}
+
+#fenn {
+    text-transform: uppercase;
+    color: #c2caac;
+    font-weight: bold;
+}
+
+.haromsz {
+    background-color: white;
+    border: 1px solid #145c4e;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:700px) {
+    nav{
+        grid-template-columns: 1fr;
+    }
+    header {
+        grid-template-columns: 1fr;
+    }
+
 }
